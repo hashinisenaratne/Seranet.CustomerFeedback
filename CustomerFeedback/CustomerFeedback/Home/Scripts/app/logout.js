@@ -9,7 +9,7 @@
         }).
         success(function (data, status, headers, config) {
             logger.error("User Logged out!!!");
-            window.location.assign("/Login.html");
+            window.location.assign("./Login.html");
         }).
         error(function (data, status, headers, config) {
             logger.error("Validation failed");
